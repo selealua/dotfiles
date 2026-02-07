@@ -1,0 +1,11 @@
+PROMPT="%F{green}%~%f $ "
+
+export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.local/share/bob/nvim-bin:$PATH"
+
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+ZSH_HIGHLIGHT_STYLES[command]='fg=green,bold'
+ZSH_HIGHLIGHT_STYLES[invalid-command]='fg=red,bold'
+ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=red,bold,underline'
+
